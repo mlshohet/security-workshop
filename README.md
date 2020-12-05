@@ -1,5 +1,4 @@
 # security-client-exercise
-For Udemy course - Security
 
-Run in conjunction with security-server-exercise repo
+To be run in conjunction with security-workshop-server repo
 
