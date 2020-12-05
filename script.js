@@ -9,11 +9,11 @@
 const userInputInHTML = (input) => {
   const p = document.getElementById("pleaseNo")
   // Bad
-  p.innerHTML = input;
+  // p.innerHTML = input;
 
-  // Better
-  // var textnode = document.createTextNode(input);
-  // p.appendChild(textnode);
+  // Better, attach the node to p tag as children
+  var textnode = document.createTextNode(input);
+  p.appendChild(textnode);
 }
 const sendToServer = () => {
   const input = document.querySelector('#userinput').value;
